@@ -1,0 +1,20 @@
+.button{
+  display: inline-block;
+  background-color:transparent;
+  border: none;
+  border: 4px solid #ffffff;
+  padding: 20px 38px;
+  border-radius: 60px;
+  cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+
+  &:hover{
+    background-color: #fff;
+color:$adress-color;
+  }
+  &:active{
+    color: rgba(210, 40, 86, .3);
+  }
+}

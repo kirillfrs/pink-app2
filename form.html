@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pink</title>
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <header class="page-header">
+    <div class="page-header__wrapper">
+      <a href="index.html" class="page-header__logo page-header__logo--mobile">
+        <img src="/img/logo-pink-white-mobile.svg" width="75" height="22" alt="пинк-лого"
+          class="page-header__logo-image">
+      </a>
+      <a href="index.html" class="page-header__logo page-header__logo--tablet">
+        <img src="/img/logo-pink-white-tablet.svg" width="150" height="45" alt="пинк-лого"
+          class="page-header__logo-image">
+      </a>
+      <a href="index.html" class="page-header__logo page-header__logo--desktop">
+        <img src="/img/logo-pink-white-desktop.svg" width="150" height="45" alt="пинк-лого"
+          class="page-header__logo-image">
+      </a>
+      <nav class="main-navigation">
+        <button class="main-navogation__toggle" type="button">Открыть меню</button>
+        <ul class="main-navigation__list site-list">
+          <li class="site-list__item site-list__item--main"><a href="index.html" class="site-list__link">Главная</a>
+          </li>
+          <li class="site-list__item"><a href="photo.html" class="site-list__link">Фотографии</a></li>
+          <li class="site-list__item"><a href="form.html" class="site-list__link">Конкурс</a></li>
+          <li class="site-list__item"><a href="#" class="site-list__link">HTM Academy</a></li>
+        </ul>
+      </nav>
+    </div>
+    <section class="promo promo--form">
+      <h1 class="page-main__title page-main__title--form">Конкурс на самое безбашенное путешествие с Пинк </h1>
+    </section>
+  </header>
+
+  <main class="main-page">
+    <section class="form">
+      <form action="https://echo.htmlacademy.ru" method="post" class="prize-form">
+        <p class="prize-form__title">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу
+          бонусную карту!</p>
+        <fieldset class="prize-form__field field">
+          <legend class="field__title vissualy-hidden">Ваши данные</legend>
+          <ul class="field__list">
+            <li class="field__item"><label for="name" class="field__name">Фамилия</label><input type="text"
+                class="field__input" id="name" name="surname" placeholder="Укажите,фамилию *"></li>
+            <li class="field__item"><label for="surname" class="field__name">Имя</label><input type="text"
+                class="field__input" id="surname" name="name" placeholder="Введите ваше имя *"></li>
+            <li class="field__item">
+              <label for="otchestvo" class="field__name">Отчество</label>
+              <input type="text" class="field__input" name="othcestvo" id="otchestvo" placeholder="Ну и отчество тоже">
+            </li>
+
+
+          </ul>
+        </fieldset>
+
+        <fieldset class="achievment-form">
+          <legend class="achievment-form__title ">Ваши безбашенные достижения в путешествии</legend>
+          <ul class="achievment-form__list achievment-list">
+            <li class="achievment-list__item">
+              <input type="checkbox" name="selfie" id="selfie" class="achievment-list__checkbox">
+              <label for="selfie" class="achievment-list__name">Сделал селфи с
+                акулой</label>
+            </li>
+            <li class="achievment-list__item">
+              <input type="checkbox" name="beach" id="beach" class="achievment-list__checkbox">
+              <label for="beach" class="achievment-list__name">Обгорел на
+                пляже</label>
+            </li>
+            <li class="achievment-list__item">
+              <input type="checkbox" name="noris" id="noris" class="achievment-list__checkbox">
+              <label for="noris" class="achievment-list__name">Видел Чака
+                Нориса</label>
+            </li>
+            <li class="achievment-list__item">
+              <input type="checkbox" name="suvenir" id="suvenir" class="achievment-list__checkbox">
+              <label for="suvenir" class="achievment-list__name">Накупил
+                сувениров</label>
+            </li>
+            <li class="achievment-list__item">
+              <input type="checkbox" name="tower" id="tower" class="achievment-list__checkbox">
+              <label for="tower" class="achievment-list__name">Удержал башню</label>
+            </li>
+            <li class="achievment-list__item">
+              <input type="checkbox" name="hotel" id="hotel" class="achievment-list__checkbox">
+              <label for="hotel" class="achievment-list__name">Разгромил
+                отель</label>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset class="prize-form__field field--contacts">
+          <legend class="field__title">Ваши данные</legend>
+          <ul class="field__list">
+            <li class="field__item">
+              <label for="phone" class="field__name">Номер телефона</label>
+              <input type="text" class="field__input" id="phone" name="phone" placeholder="Номер,пожалуйста"></li>
+            <li class="field__item">
+              <label for="mail" class="field__name">адрес почты</label>
+              <input type="email" class="field__input" id="mail" placeholder="Введите почту *"></li>
+          </ul>
+        </fieldset>
+
+        <fieldset class="whichapp-form whichapp-form--bottom">
+          <legend class="whichapp-form__title">С каким приложением
+            путешествовали?</legend>
+          <ul class="whichapp-form__list whichapp-list">
+            <li class="whichapp-list__item">
+              <input type="radio" name="app" id="IOS" class="whichapp-list__checkbox">
+              <label for="IOS" class="whichapp-list__name">Pink для iOS</label>
+            </li>
+
+            <li class="whichapp-list__item">
+              <input type="radio" name="app" id="Android" class="whichapp-list__checkbox">
+              <label for="Android" class="whichapp-list__name">Pink для Android</label>
+            </li>
+
+            <li class="whichapp-list__item">
+              <input type="radio" name="app" id="windows" class="whichapp-list__checkbox">
+              <label for="windows" class="whichapp-list__name">Pink для Windows Phone</label>
+            </li>
+          </ul>
+        </fieldset>
+
+        <fieldset class="prize-form__field field--emotion">
+          <legend class="field__title"> Опишите свои эмоции</legend>
+          <textarea class="field__textarea" name="feedback-emotion" id="feedback-emotion"
+            placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
+        </fieldset>
+        <div class="form__submit submit">
+          <button type="submit" class="submit__button button">Отправить форму</button>
+          <small class="submit__legend submit__legend--bottom">
+            <sup>*</sup> — обязательные поля
+          </small>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="page-footer">
+
+    <a href="index.html" class="page-footer__logo">
+      <img src="img\logo-pink-blue-mobile.svg" alt="логотип" width="145" height="40"
+        class="footer-social__logo-image">
+    </a>
+
+    <ul class="page-footer__social-list social-list">
+      <li class="social-list__item social-list__item--tw" target="_blank"><a href="https://twitter.com/"
+          class="social-list__link">twitter</a></li>
+      <li class="social-list__item social-list__item--fb" target="_blank"><a href="https://www.facebook.com/"
+          class="social-list__link">fb</a></li>
+      <li class="social-list__item social-list__item--youtube" target="_blank"><a href="http://www.youtube.com/"
+          class="social-list__link">youtube</a></li>
+    </ul>
+
+    <div class="page-footer__copyright copyright">
+      <b class="copyright__text">Разработано:</b>
+      <a href="https://htmlacademy.ru" class="copyright__link button">HTML ACADEMY</a>
+    </div>
+
+    </div>
+
+  </footer>
+
+</body>
+
+</html>

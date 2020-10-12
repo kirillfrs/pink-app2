@@ -1,0 +1,44 @@
+
+.site-list__item{
+  text-align: center;
+  @media (min-width:$desktop-width){
+    padding-bottom: 8px;
+    &--main{
+      border-bottom:2px #fff solid ;
+    }
+  }
+  }
+
+
+.site-list__link{
+display: block;
+width: 100%;
+  color:$white;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 700;
+ text-transform: uppercase;
+ border-top: 1px solid #475360;
+ border-bottom: 1px solid #000001;
+ padding: 25px 70px;
+ &:hover{
+  color:#d22856;
+}
+&:active{
+  color:#fff;
+  opacity: .3;
+}
+}
+
+
+@media (min-width:$desktop-width){
+.site-list__link{
+  padding: 0;
+  border:none;
+ font-size: 18px;
+ line-height: 18px;
+ font-weight: 400;
+ text-transform: none;
+}
+}
+

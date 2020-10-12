@@ -1,0 +1,34 @@
+.page-footer{
+  display: none;
+  padding-bottom:85px ;
+}
+  .page-footer__logo{
+    align-self: center;
+
+   }
+
+.footer-social__logo-image{
+  path:nth-child(2){
+    fill: #D22856;
+  }
+  fill:#283645;
+     &:hover{
+       fill:#D22856;
+
+      }   }
+
+@media(min-width:$tablet-width){
+ .page-footer{
+   width: 700px;
+   margin: 0  auto;
+   display: flex ;
+   justify-content: space-between;
+   flex-wrap: wrap;
+ }
+  }
+  @media(min-width:$desktop-width){
+    .page-footer{
+      width: 1200px;
+
+    }
+     }

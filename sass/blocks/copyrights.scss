@@ -1,0 +1,29 @@
+.copyright__text
+{
+  line-height: 18px;
+}
+.copyright__link{
+  font-size: 0;
+  position: relative;
+  padding: 0;
+//   &::before{
+//     content: "";
+//     // background:url('../img/htmlacademy.svg') no-repeat bottom;
+//     // background-size: 100%;
+//     width: 45px;
+//     height: 45px;
+//     position: absolute;
+// left: -2px;
+// top: 10px;
+&:hover{
+  fill:black;
+}
+  }
+// }
+
+.copyright__icon{
+  fill:#d22856;
+  &:hover{
+    fill:#283645;
+  }
+}

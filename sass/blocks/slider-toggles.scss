@@ -1,0 +1,22 @@
+.slider__toggle{
+  display: inline-block;
+  background-color:#b5b9be;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
+  padding: 4px;
+  margin-right: 16px;
+  &-active{
+    border:3px#283645 solid;
+    background-color: transparent;
+  }
+&:hover{
+  background-color:#7e868f;
+}
+&:active{
+  background-color:#e9ebec;
+}
+}
+

@@ -1,0 +1,89 @@
+.diagram{
+display: none;
+}
+@media(min-width:$tablet-width){
+  .diagram__wrapper{
+width: 700px;
+margin: 0 auto;
+display: flex;
+  }
+  .diagram{
+    display: block ;
+  margin-bottom: 110px;}
+
+  .diagram__timer{
+    position: relative;
+    width: 240px;
+    height: 280px;
+    margin-right: 73px;
+  &::before{
+    content:"24";
+    position: absolute;
+    top: 27%;
+    left: 64px;
+    font-size: 96px;
+    line-height: 149.47px;
+    color:#d22856;
+    font-weight: 700;
+    display: block;
+}
+}
+.diagram__timer-icon{
+  width: 238px;
+  height: 275px;
+
+}
+.diagram__description-block{
+  width: 300px;
+}
+.diagarm__title{
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+}
+.diagram_research-link{
+color:#d22856;
+text-decoration: underline;
+}
+}
+
+@media(min-width:$desktop-width){
+  .diagram{
+    background-color: $grey;
+    padding-bottom: 66px;
+    margin-bottom: 0px;
+  }
+  .diagram__wrapper{
+    width: 1200px;}
+  .diagram__description-block{
+    width: 530px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+  .diagram__timer{
+    width: 303px;
+    height: 352px;
+    &::before{
+           font-size: 120px;
+      line-height: 186.64px;
+      top: 29%;
+    left: 85px;
+  }
+}
+  .diagram__timer-icon{
+    width: 303px;
+    height: 352px;
+
+  }
+  .diagarm__title{
+    line-height: 30px;
+  }
+  .diagram__description{
+font-size: 18px;
+line-height: 30px;
+  }
+  .diagram_research-link{
+font-size: 18px;
+    }
+}
